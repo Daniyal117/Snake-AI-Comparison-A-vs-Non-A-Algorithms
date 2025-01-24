@@ -22,6 +22,7 @@ git clone https://github.com/Daniyal117/XOR_Net.git
 To run the game, use the following command:
 ```bash
 python3 main.py
+```
 
 ## Features
 - **A* Algorithm**: Implements an optimal pathfinding algorithm that dynamically calculates the best path to the food while avoiding obstacles.
@@ -43,5 +44,4 @@ python3 main.py
 - **A* Algorithm**: Uses a priority queue to explore the most promising paths first, ensuring an optimal solution.
 - **Non-A* Algorithms**: These algorithms may use simpler methods like random or greedy search for navigation, providing faster but non-optimal solutions.
 - **Game Loop**: The game continually updates the snake’s position and algorithm choice in real-time, displaying the performance of each strategy.
-
 
